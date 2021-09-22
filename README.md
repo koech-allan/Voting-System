@@ -1,4 +1,3 @@
-# Voting-System
 Import the database file to use this website since its dynamic.
 The file name is db.sql
 copy this folder and paste it in xampp/htdocs/ to use the website since
