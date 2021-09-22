@@ -1,0 +1,170 @@
+
+		body{
+			background-image: url(../images/IMG7.jpg);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			margin: 0 auto;
+			padding: 10px;
+			
+
+		}
+		.g1{
+			flex: 2;
+		}
+		.g2{
+			flex: 2;
+		}
+		/*login form*/
+		#lform1{
+			background: linear-gradient(to right, red,orange);
+			max-width:300px;
+			color: white;
+		}
+		#lbtn{
+			background-color: green;
+			color: white;
+		}
+		/*contactpage*/
+		#center{
+			color: green;
+			background-color: white;
+			width:50%;
+		}
+		#linknav{
+			text-align: left;
+			background-color:orange;
+			width:50%;
+		}
+
+
+		li a:hover{
+			background: red;
+			text-transform: uppercase;
+		}
+		.flexbox{
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+
+		}
+		#chart{
+			background-color: white;
+		}
+		#nav{
+			display: flex;
+			list-style-type: none;
+			justify-content: space-between;
+		}
+		#navc{width: 600px;
+			
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+
+		.ten img{
+			position: center;
+			margin-top: 5px;
+			margin-left: 10px;
+		}
+		/* desktop design*/
+		@media screen and (min-width: 701px){
+			#navp{
+				display: none;
+			}
+		}
+	/*mobile responsive design*/
+	@media screen and (max-width:700px ){
+		#navc{
+			display: none;
+		}
+		#close{
+			font-size: 30px;
+			
+			float: right;
+		}
+		#nav1{
+			list-style-type: none;
+		}
+		#navp{
+			background-color: rgba(0,0,0,0.6);
+			color: white;
+			display: none;
+		}
+		#at{
+			color: white;
+		}
+		#micon{
+			width: 35px;
+			margin: 5px 5px;
+			background-color: white;
+			height: 5px;
+		}
+		#menu{
+			background-color: orangered;
+			width: 45px;
+			height: 35px;
+			text-align: center;
+			cursor: pointer;
+		}
+	}
+	/*user page */
+	#gif{
+		max-width: 500px;
+		max-height: 300px;
+	}
+	#cimg{
+		max-height: 50px;
+		max-width: 50px;
+		border-radius: 50%;
+	}
+	#ut{
+		border: 1px solid orangered;
+	}
+	#vbtn{
+		height: 20px;
+		width: 100%;
+	}
+	#gen{
+		width: 250px;
+		color: yellow;
+		background-color: rgba(0,0,0,0.6);
+	}
+	#sch{
+	     color: yellow;
+		background-color: rgba(0,0,0,0.6);
+		width: 350px;	
+	}
+	#vbtn1{
+			background-color:white;
+    border: none;
+    color: blue;
+    font-weight: bolder;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	}
+	.vbtn1{
+		text-align: center;
+	}
+	.flexBox{
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	.left{
+		float: right;
+		
+	}
+	/*thanks page*/
+	#thank{
+		background-color: orange;
+		width: 350px;
+		color: blue;
+
+	}
+	
