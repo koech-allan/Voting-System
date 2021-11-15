@@ -12,9 +12,9 @@
 	<h2>CONTACT US</h2>
 	<p>
 		P.O Box 103-40404.<br>
-			RONGO<br>
+			KABARAK<br>
 		Office line: 0770308253.<br>
-		Email: vc@rongovarsity.ac.ke.	
+		Email: kabarakuniv@gmail.com
 	</p>
 	<hr style="width: 50%">
 	<h2>Connect With Us</h2>
